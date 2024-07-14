@@ -1,6 +1,8 @@
 import React from "react";
 import Skills from "./Skills.jsx";
 import { FaFileDownload } from "react-icons/fa";
+import Resume from "../images/Resume.pdf"
+
 const About = () => {
   return (
     <>
@@ -10,9 +12,9 @@ const About = () => {
             Get to <b>know</b> me!
           </h1>
           <p>
-            Hi, my name is <b>Eshaal Rehmatullah</b> and I am from Lahore,
-            Pakistan. I'm a <b>Frontend web developer</b> and a first year
-            university student pursuing <b>BS in Computer Science</b>. <br />
+            Hi, my name is <b>Yash Shirdhankar</b> and I am from Mumbai,
+            India. I'm a <b>Software developer</b> and a graduate
+             in <b>BE in Information Technology</b>. <br />
             <br />
             I love to create projects with beautiful designs and put my own
             twists on it, you can check out some of my work in the projects
@@ -22,10 +24,9 @@ const About = () => {
             contribute and grow. Feel free to connect with me, links are in the
             footer.
             <br />
-            Apart from coding I love to make discord servers,designs and do
-            photography in my spare time.
+            
           </p>
-          <a href="Resume.pdf" download className="resume-btn">
+          <a href={Resume} download="Resume" className="resume-btn" >
             <button>
               Download Resume <FaFileDownload></FaFileDownload>
             </button>
@@ -45,8 +46,7 @@ const About = () => {
         <Skills skill="React" />
         <Skills skill="Git" />
         <Skills skill="Github" />
-        <Skills skill="C++" />
-        <Skills skill="Figma" />
+        <Skills skill="Python" />
         <Skills skill="Npm" />
       </div>
     </>

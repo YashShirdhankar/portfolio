@@ -1,9 +1,8 @@
 import React from "react";
 import ProjectBox from "./ProjectBox";
-import FilmImage from "../images/Film.png";
-import GymImage from "../images/gym.png";
-import ColourImage from "../images/colour.png";
-import BackpackImage from "../images/backpack.png";
+import CarsImage from "../images/cars.png";
+import EcartImage from "../images/ecart.png";
+import WeatherImage from "../images/weather.png";
 
 const Projects = () => {
   return (
@@ -12,10 +11,10 @@ const Projects = () => {
         My <b>Projects</b>
       </h1>
       <div className="project">
-        <ProjectBox projectPhoto={GymImage} projectName="Levels" />
-        <ProjectBox projectPhoto={FilmImage} projectName="Movie" />
-        <ProjectBox projectPhoto={ColourImage} projectName="ColourPalette" />
-        <ProjectBox projectPhoto={BackpackImage} projectName="Backpack" />
+        <ProjectBox projectPhoto={EcartImage} projectName="Ecart" />
+        <ProjectBox projectPhoto={CarsImage} projectName="Cars" />
+        
+        <ProjectBox projectPhoto={WeatherImage} projectName="WeatherApp" />
       </div>
     </div>
   );

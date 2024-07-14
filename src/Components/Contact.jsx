@@ -20,6 +20,13 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Form submitted!");
+
+    // Construct the mailto link
+    const mailtoLink = `mailto:yashshirdhankar@gmail.com?subject=Contact Form Submission&body=Name: ${formData.name}%0AEmail: ${formData.email}%0AMessage: ${formData.message}`;
+
+    // Open the default email client with the pre-filled email
+    window.location.href = mailtoLink;
+
     setSubmitted(true);
   };
 
@@ -62,13 +69,9 @@ const Contact = () => {
               required
             />
           </div>
-          <a type="submit" href="mailTo:work.eshaaldev@protonmail.com">
-            <button className="submit-btn">
-              {" "}
-              Submit
-              <FaCheck> </FaCheck>{" "}
-            </button>
-          </a>
+          <button type="submit" className="submit-btn">
+            Submit <FaCheck />
+          </button>
         </form>
       )}
     </div>

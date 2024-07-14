@@ -44,7 +44,7 @@ const Nav = () => {
         onClick={() => window.location.reload(true)}
         className="Logo"
       >
-        ER
+        YS
       </h1>
 
       <div className="Hamburger" onClick={showMenu}>

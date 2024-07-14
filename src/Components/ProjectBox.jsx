@@ -4,25 +4,25 @@ import { CgFileDocument } from "react-icons/cg";
 
 const ProjectBox = ({ projectPhoto, projectName }) => {
   const desc = {
-    LevelsDesc:
-      "This website is a for a local gym to help with their sales.This helped me understand React better and more clearly. I also learned how to host on vercel.",
-    LevelsGithub: "https://github.com/EshaalB/Gym-Website",
-    LevelsWebsite: "https://gym-website-pink.vercel.app/",
+    EcartDesc:
+      "Developed a responsive eCommerce frontend using React.js and Bootstrap. Implemented a functional cart feature for managing products and ensuring a smooth user experience. The website is designed to be fully responsive and visually appealing across all devices..",
+      EcartGithub: "https://github.com/YashShirdhankar/e-cart",
+    EcartWebsite: "https://e-cart-website-taupe.vercel.app/",
 
-    MovieDesc:
-      "This web app  is for helping you find your desired movie.The project helped me with understanding the working of API.I also learned new CSS properties and tricks.",
-    MovieGithub: "https://github.com/EshaalB/Movie-App",
-    MovieWebsite: "https://film-mania.vercel.app/",
+    CarsDesc:
+      "Created a dynamic web application using React.js and Tailwind CSS. Key features include customizable Dark and Light mode, responsive Navbar, and mobile-friendly Sidebar Navigation. The app is fully responsive with animated elements and a sleek, modern design..",
+    CarsGithub: "https://github.com/YashShirdhankar/car-rental",
+    CarsWebsite: "https://car-rental-yash.netlify.app",
 
     ColourPaletteDesc:
       "This website helps you generate random colours that you can use as a palette.The project helped me understand Javascript more deeply using advance techniques",
     ColourPaletteGithub: "https://github.com/EshaalB/Colour-palette-Generator",
     ColourPaletteWebsite: "https://colourpalettegen.netlify.app",
 
-    BackpackDesc:
-      "This webpageis was made for an ecommerce brand showcasing their backpacks.The project taught me how to use custom cursors and arrange text in a much better way",
-    BackpackGithub: "https://github.com/EshaalB/Landing-Page--React-",
-    BackpackWebsite: "https://landing-page-react-sage.vercel.app/",
+    WeatherAppDesc:
+      "Developed a weather application using Python Flask and integrated a weather API. The app fetches real-time weather data and presents it through a clean, user-friendly interface. Designed to be fully responsive for seamless use across all devices.",
+      WeatherAppGithub: "https://github.com/YashShirdhankar/weather-app",
+    WeatherAppWebsite: "https://yash-website-6p3z.onrender.com",
   };
 
   return (

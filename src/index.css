@@ -229,9 +229,10 @@ button:hover {
   letter-spacing: 0.6px;
 }
 .Avatar {
-  height: 350px;
-  width: 400px;
+  height: 300px;
+  width: 350px;
   mix-blend-mode: screen;
+  padding: 10%;
 }
 
 @media (max-width: 900px) {

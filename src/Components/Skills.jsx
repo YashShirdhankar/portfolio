@@ -9,9 +9,11 @@ import {
   FaBootstrap,
   FaHtml5,
   FaCss3,
+  FaPython
 } from "react-icons/fa";
 import { DiJavascript1 } from "react-icons/di";
 import { SiTailwindcss } from "react-icons/si";
+
 
 const Skills = ({ skill }) => {
   const icon = {
@@ -20,7 +22,7 @@ const Skills = ({ skill }) => {
     Javascript: <DiJavascript1 />,
     Bootstrap: <FaBootstrap />,
     Tailwind: <SiTailwindcss />,
-    "C++": <CgCPlusPlus />,
+    Python: <FaPython />,
     React: <FaReact />,
     Git: <FaGitAlt />,
     Github: <FaGithub />,

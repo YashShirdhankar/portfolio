@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Type from "./Type.jsx";
 import Tilt from "react-parallax-tilt";
-import Avatar from "../images/Avatar.png";
+import Avatar1 from "../images/Avatar1.png";
 import { CgPhone } from "react-icons/cg";
 import { BsPerson } from "react-icons/bs";
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
         <div className="HomeText">
           <h1>Hello there!</h1>
           <h1>
-            I'M <b>Eshaal Rehmatullah</b>
+            I'M <b>Yash Shirdhankar</b>
           </h1>
           <Type />
           <Link to="/About">
@@ -29,7 +29,7 @@ const Home = () => {
           </Link>
         </div>
         <Tilt>
-          <img className="Avatar" src={Avatar} alt="" />
+          <img className="Avatar" src={Avatar1} alt="" />
         </Tilt>
       </div>
     </div>
